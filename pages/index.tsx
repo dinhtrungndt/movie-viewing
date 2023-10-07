@@ -34,7 +34,7 @@ export default function Home() {
       <main>
         <h1 className="text-4xl text-green-500">Film Movie</h1>
         <p className="text-2xl text-gray-500">
-          Chào mừng {user?.name} đến với trang web của chúng tôi.
+          Chào mừng {user?.currentUser?.name} đến với trang web của chúng tôi.
         </p>
         <button className="h-10 w-full bg-white" onClick={() => signOut()}>
           Đăng xuất
