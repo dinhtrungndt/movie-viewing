@@ -23,6 +23,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "prisma": "^5.4.1",
