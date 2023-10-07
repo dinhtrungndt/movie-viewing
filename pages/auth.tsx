@@ -1,13 +1,32 @@
-import Input from "@/components/Input";
 import Head from "next/head";
-import { useCallback, useState } from "react";
 import axios from "axios";
-import { signIn } from "next-auth/react";
+import { useCallback, useState } from "react";
+import { NextPageContext } from "next";
+import { signIn, getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+
+import Input from "@/components/Input";
+
+export async function getServerSideProps(context: NextPageContext) {
+  const session = await getSession(context);
+
+  if (session) {
+    return {
+      redirect: {
+        destination: "/",
+        permanent: false,
+      },
+    };
+  }
+
+  return {
+    props: {},
+  };
+}
 
 const Auth = () => {
   const router = useRouter();
@@ -77,6 +96,7 @@ const Auth = () => {
                 {variant === "register" && (
                   <Input
                     label="Tên người dùng"
+                    type="text"
                     onChange={(ev: any) => setName(ev.target.value)}
                     id="name"
                     value={name}
