@@ -3,6 +3,8 @@ import { signOut, getSession } from "next-auth/react";
 import { NextPageContext } from "next";
 import useCurrentUser from "@/hooks/useCurrentUser";
 
+import Navbar from "@/components/Navbar";
+
 export async function getServerSideProps(context: NextPageContext) {
   const session = await getSession(context);
 
@@ -32,13 +34,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-4xl text-green-500">Film Movie</h1>
-        <p className="text-2xl text-gray-500">
-          Chào mừng {user?.currentUser?.name} đến với trang web của chúng tôi.
-        </p>
-        <button className="h-10 w-full bg-white" onClick={() => signOut()}>
-          Đăng xuất
-        </button>
+        <Navbar />
       </main>
     </>
   );
