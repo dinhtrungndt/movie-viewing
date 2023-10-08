@@ -1,38 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/dinhtrungndt/movie-viewing/assets/127390593/a2ebff57-3d27-4623-95b0-74762909c512)# This is a movie viewing website. 👨🏻‍💻🎞📺
+# You can quickly view it with this link: https://movie-viewing.vercel.app/auth
 
-## Getting Started
+# Web summary:
+https://github.com/dinhtrungndt/movie-viewing/assets/127390593/50c1fc6a-de09-4adc-88b6-a584dc1baef6
 
-First, run the development server:
+# Login and SignUp:
+![image](https://github.com/dinhtrungndt/movie-viewing/assets/127390593/d1ab0ded-4ea7-4aaa-8549-409c1628f52f)
+![image](https://github.com/dinhtrungndt/movie-viewing/assets/127390593/3fb9e7d4-dfdb-4a8a-9b28-05208a118dfc)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# Select account and Home:
+![image](https://github.com/dinhtrungndt/movie-viewing/assets/127390593/966e8003-97bb-4bc1-8474-8bf8af917a24)
+![image](https://github.com/dinhtrungndt/movie-viewing/assets/127390593/599a48af-1c45-4cec-ba81-68823ad1122c)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Preview:
+![image](https://github.com/dinhtrungndt/movie-viewing/assets/127390593/20de550d-9959-4095-9bf7-beb787ba2a09)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
