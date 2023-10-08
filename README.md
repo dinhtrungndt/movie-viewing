@@ -1,4 +1,4 @@
-![image](https://github.com/dinhtrungndt/movie-viewing/assets/127390593/a2ebff57-3d27-4623-95b0-74762909c512)# This is a movie viewing website. 👨🏻‍💻🎞📺
+# This is a movie viewing website. 👨🏻‍💻🎞📺
 # You can quickly view it with this link: https://movie-viewing.vercel.app/auth
 
 # Web summary:
