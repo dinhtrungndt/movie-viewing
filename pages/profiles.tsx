@@ -53,7 +53,7 @@ const Profiles = () => {
                     "
               >
                 <img
-                  src="/images/account_320px.png"
+                  src={user?.currentUser?.image}
                   alt="Profile"
                   className="bg-green-400"
                 />

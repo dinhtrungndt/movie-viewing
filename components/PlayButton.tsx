@@ -28,7 +28,7 @@ const PlayButton: React.FC<PlayButtonProps> = ({ movieId }) => {
         "
     >
       <BsFillPlayFill className="w-4 md:w-7 text-black mr-1" />
-      Play
+      Xem phim
     </button>
   );
 };

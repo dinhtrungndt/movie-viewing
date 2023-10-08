@@ -52,7 +52,7 @@ const Billboard: React.FC = () => {
             "
           >
             <HiOutlineInformationCircle className="w-4 md:w-7 mr-1" />
-            More Info
+            Chi tiết
           </button>
         </div>
       </div>

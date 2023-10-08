@@ -47,7 +47,10 @@ export default function Home() {
         <Billboard />
         <div className="pb-40">
           <MovieList title="Danh sách được yêu thích nhất" data={movies} />
-          <MovieList title="Bộ phim yêu thích của tôi" data={favorites} />
+          <MovieList
+            title="Bộ phim yêu thích của tôi"
+            data={favorites?.currentUser?.favorites}
+          />
         </div>
       </main>
     </>
