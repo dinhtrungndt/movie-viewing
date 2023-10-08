@@ -2,7 +2,7 @@
 # You can quickly view it with this link: https://movie-viewing.vercel.app/auth
 
 # Web summary:
-https://github.com/dinhtrungndt/movie-viewing/assets/127390593/50c1fc6a-de09-4adc-88b6-a584dc1baef6
+https://github.com/dinhtrungndt/movie-viewing/assets/127390593/5bd98a53-a61d-46ce-a0dc-f6e0155cbc35
 
 # Login and SignUp:
 ![image](https://github.com/dinhtrungndt/movie-viewing/assets/127390593/d1ab0ded-4ea7-4aaa-8549-409c1628f52f)
